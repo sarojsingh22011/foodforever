@@ -1,0 +1,4 @@
+<h1>Recipes#list</h1>
+<% @list.each do |list| %>
+    <li><%= link_to list.name, :controller => 'recipes', :action => 'show', :id=>list.id %></li>
+<% end %>

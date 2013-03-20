@@ -1,0 +1,7 @@
+<h1>***Categories List***</h1>
+
+<% @categories.each do |category_name| %>
+    <li><%= link_to category_name.name, :controller => 'categories', :action => 'list', :id=>category_name.id %></li>
+<% end %>
+
+

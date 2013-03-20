@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  reference: 
+  name: MyString
+  ingredients: MyString
+  description: MyString
+
+two:
+  reference: 
+  name: MyString
+  ingredients: MyString
+  description: MyString
